@@ -2,20 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="17b68fd8-24f4-49f7-972b-8e2efc044818" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/batch/BatchJob$$anonfun$1.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/batch/BatchJob$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/batch/BatchJob$.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/batch/BatchJob$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/batch/BatchJob.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/batch/BatchJob.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer$$anonfun$1.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer$$anonfun$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer$$anonfun$2.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer$$anonfun$2.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer$$anonfun$3.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer$$anonfun$3.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer$.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer$delayedInit$body.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer$delayedInit$body.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/clickstream/LogProducer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/config/Settings$.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/config/Settings$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/config/Settings$WebLogGen$.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/config/Settings$WebLogGen$.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/config/Settings.class" afterPath="$PROJECT_DIR$/Lambda/target/classes/config/Settings.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Lambda/target/classes/application.conf" afterPath="$PROJECT_DIR$/Lambda/target/classes/application.conf" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -926,7 +913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489239404005</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Streaming with Log Producer">
+      <created>1489239429054</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489239429054</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
