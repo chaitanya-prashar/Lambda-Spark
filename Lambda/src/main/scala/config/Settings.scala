@@ -2,9 +2,7 @@ package config
 
 import com.typesafe.config.ConfigFactory
 
-/**
-  * Created by Ahmad Alkilani on 4/30/2016.
-  */
+
 object Settings {
   private val config = ConfigFactory.load()
 
@@ -16,6 +14,8 @@ object Settings {
     lazy val pages = weblogGen.getInt("pages")
     lazy val visitors = weblogGen.getInt("visitors")
     lazy val filePath = weblogGen.getString("file_path")
+    lazy val destPath = weblogGen.getString("dest_path")
+    lazy val numberOfFiles = weblogGen.getInt("number_of_files")
 
   }
 }

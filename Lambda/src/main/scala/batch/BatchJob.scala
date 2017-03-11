@@ -1,24 +1,16 @@
 package batch
 
-import java.lang.management.ManagementFactory
-import org.apache.spark.{SparkContext, SparkConf}
-import org.apache.spark.sql.{SaveMode, SQLContext}
+import org.apache.spark.sql.SaveMode
 import domain._
+import utils.SparkUtils._
 
-/**
-  * Created by Ahmad Alkilani on 5/1/2016.
-  */
+
 object BatchJob {
   def main (args: Array[String]): Unit = {
 
-    // get spark configuration
-    val conf = new SparkConf()
-      .setAppName("Lambda with Spark")
-
-
     // setup spark context
-    val sc = new  SparkContext(conf)
-    implicit val sqlContext = new SQLContext(sc)
+    val sc = getSparkContext("Lambda with Spark")
+    val sqlContext = getSQLContext(sc)
 
     import org.apache.spark.sql.functions._
     import sqlContext.implicits._
@@ -58,8 +50,8 @@ object BatchJob {
 
     activityByProduct.write.partitionBy("timestamp_hour").mode(SaveMode.Append).parquet("hdfs://lambda-pluralsight:9000/lambda/batch1")
 
-    //took me one week to solve the problem here. the parquet function which writes the file in HDFS, should be exactly the same in Hadoop_conf = core-site.xml and the hdfs path there sould be the same
     visitorsByProduct.foreach(println)
     activityByProduct.foreach(println)
+
   }
 }
